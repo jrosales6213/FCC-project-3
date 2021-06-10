@@ -1,0 +1,83 @@
+
+.collapse {
+    padding-left: 20%;
+}
+#header-img {
+    width: 75px;
+    height: auto;
+}
+#about {
+    text-align: center
+}
+#locations {
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+ #video {
+     width: 300px;
+     
+ }  
+}
+.location-item {
+    height: 300px;
+}
+.losAngeles {
+    background-image: url("https://inszoneinsurance.com/wp-content/uploads/2020/12/Los-Angeles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sanDiego {
+    background-image: url("https://upload.travelawaits.com/ta/uploads/2021/05/shutterstock_1665871702-800x667.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.riverside {
+    background-image: url("https://c1.staticflickr.com/7/6140/5974135991_9e4bee9f0d_b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.orangeCounty {
+    background-image: url("https://karmanhealth-karmanhealthcare.netdna-ssl.com/wp-content/uploads/2017/12/DSC04842.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pricing {
+    text-align: center;
+
+}
+h2 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+#contact {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#email {
+    margin-left: 25%;
+    width: 55%;
+}
+footer{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    background-color:#212529;
+    color: white;
+    padding: 10px;
+}
+.social-media .fab {
+ padding-inline: 10px;
+ color:white;
+}
+.fab:hover {
+    cursor: pointer;
+}
+.main {
+    padding: 60px;
+  
+    background-image: url("https://www.drbsystems.com/wp-content/uploads/2016/10/Car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+;
+}
